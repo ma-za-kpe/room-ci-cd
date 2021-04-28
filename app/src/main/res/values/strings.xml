@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">RoomApp</string>
+
+    <string name="food">ROOM DB</string>
+    <string name="delivery">OFFLINE CACHING</string>
+    <string name="payment">OFF MAIN THREAD</string>
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</string>
+
+</resources>
