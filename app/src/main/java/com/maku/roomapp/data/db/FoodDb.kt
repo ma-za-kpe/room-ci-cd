@@ -7,7 +7,7 @@ import androidx.room.RoomDatabase
 import com.maku.roomapp.data.dao.FoodDao
 import com.maku.roomapp.data.entity.Food
 
-@Database(entities = [Food::class], version = 1, exportSchema = true)
+@Database(entities = [Food::class], version = 1, exportSchema = false)
 abstract class FoodDb: RoomDatabase() {
 
     abstract fun foodDao(): FoodDao
