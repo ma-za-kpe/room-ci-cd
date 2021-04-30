@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1077593319207",
+    "project_id": "roomapp-d8fb3",
+    "storage_bucket": "roomapp-d8fb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077593319207:android:e338f8044f4615eb00eb02",
+        "android_client_info": {
+          "package_name": "com.maku.roomapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077593319207-v29id1oe3uop0ud7cal2cgfbuglr0jo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW4V5FsCzgmckGKDWgn_3-6OKSpX61N6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077593319207-v29id1oe3uop0ud7cal2cgfbuglr0jo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
