@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.maku.roomapp.R
 
 class HomeFragment : Fragment() {
-
+    // random comment
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
