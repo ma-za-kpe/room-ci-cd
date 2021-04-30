@@ -1,4 +1,4 @@
-package com.maku.roomapp
+package com.maku.roomapp.ui.fragment.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

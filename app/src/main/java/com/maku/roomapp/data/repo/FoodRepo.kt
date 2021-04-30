@@ -4,11 +4,11 @@ import androidx.lifecycle.LiveData
 import com.maku.roomapp.data.dao.FoodDao
 import com.maku.roomapp.data.entity.Food
 
-class FoodRepo(foodDao: FoodDao) {
+class FoodRepo(private val foodDao: FoodDao) {
 
     val readAllFoodData: LiveData<List<Food>> = foodDao.readAllFoodData()
 
-     fun addFood(food: Food){
-        
+     suspend fun addFood(food: Food){
+        foodDao.addFood(food)
     }
 }
