@@ -16,3 +16,4 @@ local.properties
 
 
 .env.secret
+play_config.json
