@@ -15,8 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install gems # usual step to install the gems.
+        run: bundle install
+
       - name: Unit tests
         run: ./gradlew test
+
   android_tests:
     runs-on: [ macos-latest ]
     steps:
