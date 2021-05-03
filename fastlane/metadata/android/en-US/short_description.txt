@@ -1,0 +1,1 @@
+A simple demo showing CI/CD in an android app
