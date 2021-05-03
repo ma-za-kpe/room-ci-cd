@@ -15,13 +15,13 @@
 
 fastlane_require 'dotenv'
 
-before_all do
-  Dotenv.overload '.env.secret'
-end
-
 default_platform(:android)
 
 platform :android do
+  before_all do
+    Dotenv.overload '.env.secret'
+  end
+
   desc "Runs all the tests"
   lane :test do
     gradle(task: "test")
