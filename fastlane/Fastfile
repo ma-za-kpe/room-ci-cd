@@ -26,6 +26,7 @@ platform :android do
     gradle(task: "clean assembleRelease")
     firebase_app_distribution(
         app: "1:1077593319207:android:e338f8044f4615eb00eb02",
+        firebase_cli_token:"1//03ErQwMNpfhLmCgYIARAAGAMSNwF-L9IrdTbNM29VATLUpzcboIKyiuipwFcrY3oRQLZO-MhLyQHkSQMm--yumdszDbGI0CyuUYM",
         groups: "qa",
         release_notes: "Lots of amazing new features to test out!"
       )
