@@ -16,4 +16,4 @@ local.properties
 
 
 .env.secret
-fastlane/play_config.json
+play_config.json
