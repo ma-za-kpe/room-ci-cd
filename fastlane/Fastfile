@@ -42,7 +42,7 @@ platform :android do
   lane :deploy do
     gradle(task: "clean assembleRelease")
     upload_to_play_store(
-        aab:"/home/bic-pc/StudioProjects/room-ci-cd/app/release/app-release.aab"
+        aab:"../release/app-release.aab"
         )
   end
 end
